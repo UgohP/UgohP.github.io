@@ -7,41 +7,155 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- Slideshow container -->
-    <div class="slideshow-container">
-    
-        <!-- Full-width images with number and caption text -->
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="image/housify1.png" style="width:100%">
-            <div class="text">Caption Text</div>
-        </div>
-    
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="image/housify2.jpg" style="width:100%">
-            <div class="text">Caption Two</div>
-        </div>
-    
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="image/housify3.jpg" style="width:100%">
-            <div class="text">Caption Three</div>
-        </div>
-    
-        <!-- Next and previous buttons -->
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">HOUSIFY</a>
+  <a href="#news">About</a>
+  <a href="#contact">Contact</a>
+  <div class="dropdown">
+    <button class="dropbtn">Services
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">Bungalow</a>
+      <a href="#">Duplex</a>
+      <a href="#">Story Buildings</a>
+    <a href="#">Hotel & Apartments</a>
+    <a href="#">Room Mate</a>
+    <a href="#">Other</a>
+
     </div>
-    <br>
+  </div>
+  <a href="#login">Login</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+
+
+    <!-- Slideshow container -->
+    <section id="hero">
+        <div class="slideshow-container section-p1">
+            <div class="mySlides">
+                <img class="pic" src="image/housify2.jpg" width="100%">
+            </div>
+            <div class="mySlides">
+                <img class="pic" src="image/housify3.jpg" width="100%">
+            </div>
+            <div class="mySlides">
+                <img class="pic" src="image/housify1.png" width="100%">
+            </div>
+            <div class="mySlides">
+                <img class="pic" src="image/housify4.png" width="100%">
+            </div>
+        </div>
+    </section>
+
+<hr style="border: ridge blue;"><br>
+<section class="section-p1">
+    <button class="accordion">Find Your Perfect Home</button>
+    <div class="panel">
+        <p>Browse through our extensive listings of homes for rent or sale. Our platform offers a variety of options to fit your
+        needs, from cozy apartments to spacious houses. Each listing comes with detailed descriptions, high-quality images, and
+        user reviews to help you make an informed decision.</p>
+    </div>
     
-    <!-- The dots/circles -->
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
-        <span class="dot" onclick="currentSlide(3)"></span>
+    <button class="accordion">Verified Vendors</button>
+    <div class="panel">
+        <p>All vendors on Housify go through a stringent verification process to ensure their credibility. This means you can trust
+        that the properties listed on our site are genuine and accurately represented. Our verification process includes
+        background checks, property inspections, and user feedback.</p>
+    </div>
+    
+    <button class="accordion">Easy Profile Management</button>
+    <div class="panel">
+        <p>Our user-friendly interface allows both vendors and customers to manage their profiles with ease. Vendors can upload
+            new property listings, manage existing ones, and interact with potential tenants or buyers. Customers can save their
+            favorite listings, schedule viewings, and communicate directly with vendors.</p>
+    </div>
+</section>
+
+<hr style="border: ridge blue;"><br>
+
+<center>
+    <h1>SOME OF OUR HOUSES</h1>
+</center>
+
+<div class="bg-image img1"></div>
+<div class="bg-image img2"></div>
+<div class="bg-image img3"></div>
+<div class="bg-image img4"></div>
+<div class="bg-image img5"></div>
+<div class="bg-image img6"></div>
+
+<div class="bg-text">HOUSIFY</div>
+
+<hr style="border: ridge blue;"><br>
+
+<section id="newsletter" class="section-p1 section-m1">
+    <div class="newstext">
+        <h4>Want to be a vendor?</h4>
+        <p>You can be a vendor here.....</p>
+    </div>
+    <div class="vendor-btn">
+        <a href=""><button>Click here to Apply</button></a>
+    </div>
+</section>
+<hr style="border: ridge blue;"><br>
+
+<section>
+    <div class="banner-box banner-box3">
+        <h4>Your home away from home......</h4>
+        <h2 style="color: white;">Housify</h2>
+        <span>Bungalow, Duplex, Story Buildings, Room Mate, Hotels and Apartments......</span>
+        <a href=""><button>Click Here</button></a>
+    </div>
+</section>
+<hr style="border: ridge blue;"><br>
+
+<footer class="section-p1">
+    <div id="footer">
+        <div class="col">
+            <h4>Contact</h4>
+            <p><strong>Phone:</strong> 08157981821, 09032115646</p>
+
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="social-icon">
+                    <a href="https://wa.me/08157981821"><img src="" alt="whatsapp"
+                            width="20px"></a>
+                    <a href="https://instagram.com/bluemartintech"><img src="instagram"
+                            alt="instagram" width="20px"></a>
+                    <a href="https://x.com/bluemartintech"><img src="" alt="X" width="20px"></a>
+                    <a href="https://linkedin.com/in/ugohpaschal"><img src="Linkdlin" alt=""
+                            width="20px"></a>
+                    <a href="https://github.com/UgohP"><img src="" alt="github" width="20px"></a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="">About Us</a>
+            <a href="">Our Services</a>
+            <a href="">Be A Vendor</a>
+            <a href="">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="">Login</a>
+            <a href="">Sign In</a>
+            <a href="">Help</a>
+        </div>
     </div>
 
-    <script src="index.js"></script>
+</footer>
+<center>
+    <p>HOUSIFY</p>
+</center>
+
+
+
+
+<script src="index.js"></script>
 </body>
 </html>
